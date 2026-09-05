@@ -1,0 +1,32 @@
+package Analisis_de_algoritmos_y_complejidad;
+
+public class Analisis {
+
+    public void analisis(){
+
+        int n =100;
+
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                System.out.println(i+j);
+            }
+        }
+
+        int i = 1;
+
+        while(i < n){
+            i = i * 2;
+        }
+
+        for(int k =0;k<n;k++){
+
+            int j = 1;
+
+            while(j<n){
+                j=j*2;
+            }
+
+        }
+
+    }
+}
