@@ -4,8 +4,8 @@ public class AlgoritmoCuadratico {
   
   public static void main(String[] args){
    
-    int n=5;
-    int contador=0;
+    int n = 5;
+    int contador = 0;
 
     for(int i=0;<n;i++){
 
